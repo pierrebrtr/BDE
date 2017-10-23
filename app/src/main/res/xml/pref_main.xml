@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <Preference
+            android:defaultValue="@string/key_theme"
+            android:key="@string/key_theme"
+            android:summary="Choisir une palette de couleur"
+            android:title="Theme" />
+        <Preference
+            android:defaultValue="@string/key_cache"
+            android:key="@string/key_cache"
+            android:summary="Vider la totalité du cache de l'appplication"
+            android:title="Vider le cache" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_notif"
+            android:summary="Activer/Desactiver les notifications"
+            android:title="Notifications" />
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="A propos">
+
+        <Preference
+            android:defaultValue="@string/key_licenses"
+            android:key="@string/key_licenses"
+            android:summary="Licenses"
+            android:title="Consulter les licenses" />
+        <Preference
+            android:defaultValue="@string/key_contact"
+            android:key="@string/key_contact"
+            android:summary="Nous contacter"
+            android:title="Contact" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

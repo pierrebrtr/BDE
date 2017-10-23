@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">"BDE "</string>
+
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+
+    <string name="openDrawer">ouvrir_menu</string>
+    <string name="closeDrawer">fermer_menu</string>
+
+    <string name="nav_home">Accueil</string>
+    <string name="nav_cado">Cadeaux</string>
+    <string name="nav_team">Equipe</string>
+    <string name="nav_parten">Partenaires</string>
+    <string name="nav_vids">Videos</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Accueil</item>
+        <item>Equipe</item>
+    </string-array>
+
+    <string name="activity_title_about_us">A propos</string>
+    <string name="activity_title_settings">Parametres</string>
+
+    <string name="action_logout">Se deconnecter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="action_settings">Parametres</string>
+    <string name="title_activity_settings">Parametres</string>
+
+
+    <string name="pref_title_general">General</string>
+    <string name="pref_title_about">A propos</string>
+    <string name="pref_title_theme">Theme</string>
+    <string name="key_cache">key_cache</string>
+    <string name="key_licenses">key_licenses</string>
+    <string name="key_notif">key_notif</string>
+    <string name="key_contact">key_contact</string>
+    <string name="key_theme">key_theme</string>
+
+    <string-array name="default_color_choice_values" translatable="false">
+        <item>#2196F3</item>
+        <item>#FFC107</item>
+        <item>#4CAF50</item>
+        <item>#F44336</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#3F51B5</item>
+        <item>#795548</item>
+        <item>#00BCD4</item>
+    </string-array>
+    <string name="title_activity_news">News</string>
+
+</resources>

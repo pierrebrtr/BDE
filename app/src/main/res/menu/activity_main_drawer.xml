@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_chat_black_48dp"
+            android:title="News" />
+
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_supervisor_account_black_48dp"
+            android:title="L'équipe" />
+
+
+        <item
+            android:id="@+id/nav_parten"
+            android:icon="@drawable/ic_attach_money_black_48dp"
+            android:title="Les partenaires" />
+
+        <item
+            android:id="@+id/nav_cado"
+            android:icon="@drawable/ic_card_giftcard_black_48dp"
+            android:title="Cadeaux" />
+
+
+        <item
+            android:id="@+id/nav_vids"
+            android:icon="@drawable/ic_ondemand_video_black_48dp"
+            android:title="Vidéos" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Parametres" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_48dp"
+                android:title="A propos" />
+        </menu>
+    </item>
+
+</menu>
