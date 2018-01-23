@@ -98,6 +98,9 @@ public class MainActivity extends AppCompatActivity
             fragment = new NewsFragment();
             title = "News";
 
+        }else if (id == R.id.nav_vids) {
+
+
         } else if (id == R.id.nav_settings) {
             Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);

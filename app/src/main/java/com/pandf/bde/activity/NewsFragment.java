@@ -105,7 +105,7 @@ public class NewsFragment extends Fragment {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                 builder.setPositiveButton("Retour", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
+                    public void onClick(DialogInterface dialogInterface, int i)     {
                         Intent intent = new Intent(getActivity(), MainActivity.class);
                         startActivity(intent);
                     }

@@ -1,12 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "com.pandf.bde"
         minSdkVersion 15
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -43,10 +44,7 @@ dependencies {
     compile 'com.onesignal:OneSignal:[3.6.2, 3.99.99]'
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.android.volley:volley:1.0.0'
-    compile 'com.android.support:appcompat-v7:26.0.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:support-v4:26.1.0'
-    compile 'com.android.support:support-vector-drawable:26.1.0'
-    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:design:27.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0'
     testCompile 'junit:junit:4.12'
 }
